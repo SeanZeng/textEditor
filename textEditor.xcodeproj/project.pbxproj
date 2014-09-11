@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF196A3419BB0A7D007F2CCB /* View3.m in Sources */ = {isa = PBXBuildFile; fileRef = EF196A3319BB0A7D007F2CCB /* View3.m */; };
+		EF9FA25D19B48E1700D68865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9FA25C19B48E1700D68865 /* Foundation.framework */; };
+		EF9FA25F19B48E1700D68865 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9FA25E19B48E1700D68865 /* CoreGraphics.framework */; };
+		EF9FA26119B48E1700D68865 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9FA26019B48E1700D68865 /* UIKit.framework */; };
+		EF9FA26719B48E1800D68865 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF9FA26519B48E1800D68865 /* InfoPlist.strings */; };
+		EF9FA26919B48E1800D68865 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9FA26819B48E1800D68865 /* main.m */; };
+		EF9FA26D19B48E1800D68865 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9FA26C19B48E1800D68865 /* AppDelegate.m */; };
+		EF9FA27019B48E1800D68865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9FA26E19B48E1800D68865 /* Main.storyboard */; };
+		EF9FA27319B48E1800D68865 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9FA27219B48E1800D68865 /* ViewController.m */; };
+		EF9FA27519B48E1800D68865 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9FA27419B48E1800D68865 /* Images.xcassets */; };
+		EF9FA27C19B48E1800D68865 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9FA27B19B48E1800D68865 /* XCTest.framework */; };
+		EF9FA27D19B48E1800D68865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9FA25C19B48E1700D68865 /* Foundation.framework */; };
+		EF9FA27E19B48E1800D68865 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9FA26019B48E1700D68865 /* UIKit.framework */; };
+		EF9FA28619B48E1800D68865 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF9FA28419B48E1800D68865 /* InfoPlist.strings */; };
+		EF9FA28819B48E1800D68865 /* textEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9FA28719B48E1800D68865 /* textEditorTests.m */; };
+		EFE0A09F19B74CD700DA7E05 /* TextStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE0A09E19B74CD700DA7E05 /* TextStatusViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF9FA27F19B48E1800D68865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF9FA25119B48E1700D68865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF9FA25819B48E1700D68865;
+			remoteInfo = textEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF196A3219BB0A7D007F2CCB /* View3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View3.h; sourceTree = "<group>"; };
+		EF196A3319BB0A7D007F2CCB /* View3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View3.m; sourceTree = "<group>"; };
+		EF9FA25919B48E1700D68865 /* textEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9FA25C19B48E1700D68865 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF9FA25E19B48E1700D68865 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF9FA26019B48E1700D68865 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF9FA26419B48E1800D68865 /* textEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "textEditor-Info.plist"; sourceTree = "<group>"; };
+		EF9FA26619B48E1800D68865 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF9FA26819B48E1800D68865 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF9FA26A19B48E1800D68865 /* textEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "textEditor-Prefix.pch"; sourceTree = "<group>"; };
+		EF9FA26B19B48E1800D68865 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF9FA26C19B48E1800D68865 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF9FA26F19B48E1800D68865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF9FA27119B48E1800D68865 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF9FA27219B48E1800D68865 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF9FA27419B48E1800D68865 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF9FA27A19B48E1800D68865 /* textEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9FA27B19B48E1800D68865 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF9FA28319B48E1800D68865 /* textEditorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "textEditorTests-Info.plist"; sourceTree = "<group>"; };
+		EF9FA28519B48E1800D68865 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF9FA28719B48E1800D68865 /* textEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textEditorTests.m; sourceTree = "<group>"; };
+		EFE0A09D19B74CD700DA7E05 /* TextStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatusViewController.h; sourceTree = "<group>"; };
+		EFE0A09E19B74CD700DA7E05 /* TextStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatusViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF9FA25619B48E1700D68865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9FA25F19B48E1700D68865 /* CoreGraphics.framework in Frameworks */,
+				EF9FA26119B48E1700D68865 /* UIKit.framework in Frameworks */,
+				EF9FA25D19B48E1700D68865 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9FA27719B48E1800D68865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9FA27C19B48E1800D68865 /* XCTest.framework in Frameworks */,
+				EF9FA27E19B48E1800D68865 /* UIKit.framework in Frameworks */,
+				EF9FA27D19B48E1800D68865 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF9FA25019B48E1600D68865 = {
+			isa = PBXGroup;
+			children = (
+				EF9FA26219B48E1700D68865 /* textEditor */,
+				EF9FA28119B48E1800D68865 /* textEditorTests */,
+				EF9FA25B19B48E1700D68865 /* Frameworks */,
+				EF9FA25A19B48E1700D68865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF9FA25A19B48E1700D68865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF9FA25919B48E1700D68865 /* textEditor.app */,
+				EF9FA27A19B48E1800D68865 /* textEditorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF9FA25B19B48E1700D68865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF9FA25C19B48E1700D68865 /* Foundation.framework */,
+				EF9FA25E19B48E1700D68865 /* CoreGraphics.framework */,
+				EF9FA26019B48E1700D68865 /* UIKit.framework */,
+				EF9FA27B19B48E1800D68865 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF9FA26219B48E1700D68865 /* textEditor */ = {
+			isa = PBXGroup;
+			children = (
+				EF9FA26E19B48E1800D68865 /* Main.storyboard */,
+				EF9FA27119B48E1800D68865 /* ViewController.h */,
+				EF9FA27219B48E1800D68865 /* ViewController.m */,
+				EFE0A09D19B74CD700DA7E05 /* TextStatusViewController.h */,
+				EFE0A09E19B74CD700DA7E05 /* TextStatusViewController.m */,
+				EF196A3219BB0A7D007F2CCB /* View3.h */,
+				EF196A3319BB0A7D007F2CCB /* View3.m */,
+				EF9FA27419B48E1800D68865 /* Images.xcassets */,
+				EF9FA26319B48E1800D68865 /* Supporting Files */,
+			);
+			path = textEditor;
+			sourceTree = "<group>";
+		};
+		EF9FA26319B48E1800D68865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF9FA26B19B48E1800D68865 /* AppDelegate.h */,
+				EF9FA26C19B48E1800D68865 /* AppDelegate.m */,
+				EF9FA26419B48E1800D68865 /* textEditor-Info.plist */,
+				EF9FA26519B48E1800D68865 /* InfoPlist.strings */,
+				EF9FA26819B48E1800D68865 /* main.m */,
+				EF9FA26A19B48E1800D68865 /* textEditor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF9FA28119B48E1800D68865 /* textEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF9FA28719B48E1800D68865 /* textEditorTests.m */,
+				EF9FA28219B48E1800D68865 /* Supporting Files */,
+			);
+			path = textEditorTests;
+			sourceTree = "<group>";
+		};
+		EF9FA28219B48E1800D68865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF9FA28319B48E1800D68865 /* textEditorTests-Info.plist */,
+				EF9FA28419B48E1800D68865 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF9FA25819B48E1700D68865 /* textEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9FA28B19B48E1800D68865 /* Build configuration list for PBXNativeTarget "textEditor" */;
+			buildPhases = (
+				EF9FA25519B48E1700D68865 /* Sources */,
+				EF9FA25619B48E1700D68865 /* Frameworks */,
+				EF9FA25719B48E1700D68865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textEditor;
+			productName = textEditor;
+			productReference = EF9FA25919B48E1700D68865 /* textEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF9FA27919B48E1800D68865 /* textEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9FA28E19B48E1800D68865 /* Build configuration list for PBXNativeTarget "textEditorTests" */;
+			buildPhases = (
+				EF9FA27619B48E1800D68865 /* Sources */,
+				EF9FA27719B48E1800D68865 /* Frameworks */,
+				EF9FA27819B48E1800D68865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF9FA28019B48E1800D68865 /* PBXTargetDependency */,
+			);
+			name = textEditorTests;
+			productName = textEditorTests;
+			productReference = EF9FA27A19B48E1800D68865 /* textEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF9FA25119B48E1700D68865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sean, Zeng";
+				TargetAttributes = {
+					EF9FA27919B48E1800D68865 = {
+						TestTargetID = EF9FA25819B48E1700D68865;
+					};
+				};
+			};
+			buildConfigurationList = EF9FA25419B48E1700D68865 /* Build configuration list for PBXProject "textEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF9FA25019B48E1600D68865;
+			productRefGroup = EF9FA25A19B48E1700D68865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF9FA25819B48E1700D68865 /* textEditor */,
+				EF9FA27919B48E1800D68865 /* textEditorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF9FA25719B48E1700D68865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9FA27519B48E1800D68865 /* Images.xcassets in Resources */,
+				EF9FA26719B48E1800D68865 /* InfoPlist.strings in Resources */,
+				EF9FA27019B48E1800D68865 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9FA27819B48E1800D68865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9FA28619B48E1800D68865 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF9FA25519B48E1700D68865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9FA27319B48E1800D68865 /* ViewController.m in Sources */,
+				EFE0A09F19B74CD700DA7E05 /* TextStatusViewController.m in Sources */,
+				EF9FA26D19B48E1800D68865 /* AppDelegate.m in Sources */,
+				EF196A3419BB0A7D007F2CCB /* View3.m in Sources */,
+				EF9FA26919B48E1800D68865 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9FA27619B48E1800D68865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9FA28819B48E1800D68865 /* textEditorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF9FA28019B48E1800D68865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF9FA25819B48E1700D68865 /* textEditor */;
+			targetProxy = EF9FA27F19B48E1800D68865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF9FA26519B48E1800D68865 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9FA26619B48E1800D68865 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF9FA26E19B48E1800D68865 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9FA26F19B48E1800D68865 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF9FA28419B48E1800D68865 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9FA28519B48E1800D68865 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF9FA28919B48E1800D68865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF9FA28A19B48E1800D68865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF9FA28C19B48E1800D68865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textEditor/textEditor-Prefix.pch";
+				INFOPLIST_FILE = "textEditor/textEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF9FA28D19B48E1800D68865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textEditor/textEditor-Prefix.pch";
+				INFOPLIST_FILE = "textEditor/textEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF9FA28F19B48E1800D68865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/textEditor.app/textEditor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textEditor/textEditor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "textEditorTests/textEditorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF9FA29019B48E1800D68865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/textEditor.app/textEditor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textEditor/textEditor-Prefix.pch";
+				INFOPLIST_FILE = "textEditorTests/textEditorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF9FA25419B48E1700D68865 /* Build configuration list for PBXProject "textEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9FA28919B48E1800D68865 /* Debug */,
+				EF9FA28A19B48E1800D68865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9FA28B19B48E1800D68865 /* Build configuration list for PBXNativeTarget "textEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9FA28C19B48E1800D68865 /* Debug */,
+				EF9FA28D19B48E1800D68865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9FA28E19B48E1800D68865 /* Build configuration list for PBXNativeTarget "textEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9FA28F19B48E1800D68865 /* Debug */,
+				EF9FA29019B48E1800D68865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF9FA25119B48E1700D68865 /* Project object */;
+}
